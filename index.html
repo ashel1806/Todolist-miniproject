@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo - List</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="todo__container">
+
+        <div class="todo__banner">
+            <p class="phrase">Bienvenido <br>a tu ToDo List</br></p>
+            <form id="formTasks" class="form__tasks">
+                <label>
+                    Añadir tarea: 
+                    <input id="taskContent" type="text" name="taskContent" required>
+                </label>
+                <input id="sendTask" type="submit" value="Agregar">
+            </form>
+        </div>
+
+        <div id="task__container" class="task__container">
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/396a7376e5.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
